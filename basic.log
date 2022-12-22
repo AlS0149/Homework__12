@@ -314,3 +314,19 @@ INFO:werkzeug:127.0.0.1 - - [21/Dec/2022 22:09:07] "[35m[1mPOST /post HTTP/1.1
 INFO:werkzeug:127.0.0.1 - - [21/Dec/2022 22:09:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [21/Dec/2022 22:09:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [21/Dec/2022 22:09:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 142-722-184
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:44] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:54] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:54] "GET /uploads/pic.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:08:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:09:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:09:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2022 13:09:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
